@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spacescape</title>
+</head> 
+    <header> 
+        
+    </header>
+<body>
+    <!--audio ambiance-->
+    <audio id="space" src="sound/space2.mp3"></audio>
+    <audio id="error" src="sound/error.mp3"></audio>
+    <audio id="transition" src="sound/transition.mp3"></audio>
+    <audio id="alarme" src="sound/alarme.mp3"></audio>
+    <!-- audio dialogue-->
+    <audio id="dialogueUn" src="sound/dialogue1.mp3"></audio>
+    <audio id="dialogueDeux" src="sound/dialogue2.mp3"></audio>
+    <audio id="dialogueTrois" src="sound/dialogue3.mp3"></audio>
+
+
+    <!--partie droite de l'ecran-->
+    <section>
+
+        <img id='bot' src="image/bot.png" alt="robot">
+        <button id="démarrer">Initialisation</button>
+        <p id="dialogue">Qui....Qui etes vous?</p>
+   
+    </section>
+        
+       
+    <!-- partie gauche enigme-->
+    <section id="enigme">
+        
+        <img id="vaisseau"src="image/vaisseau.png" alt="vaisseau">
+        <img id="clignotant" src="image/cligno.png" alt="giro">
+        <div id="enigmezone"></div>
+        <div id="mastermind"> 
+            <div id="un" class="vert"></div><div id="deux" class="rouge"></div><div id="trois" class="rouge"></div>
+            <div id="quatre" class="bleu"></div><div id="cinq" class="rouge"></div><div id="six" class="rouge"></div>
+            <div id="sept" class="bleu"></div><div id="huit" class="bleu"></div><div id="neuf" class="rouge"></div>
+            <p id="chiffre">3 6 8 <br/> <br/> 3 1 2 <br /><br/>8 5 3</p>
+            <input id="reponse"/>
+            <button id="valider">Valider</button>
+            <img id='retour'src="image/retour.png" alt="fleche">
+        </div>
+      
+       
+        
+    </section>
+    
+
+
+
+
+
+</body>
+</html>
